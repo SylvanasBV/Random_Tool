@@ -505,3 +505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 671dacd3833c5394b99b19a4215da63d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemImage: {fileID: 3228397319517377464}
+  quantityTxt: {fileID: 7137644707181637659}
+  borderImage: {fileID: 1270672451140996698}

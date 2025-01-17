@@ -1,10 +1,11 @@
 
+using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIInventoryItem : MonoBehaviour
 {
-    /*
     // Start is called before the first frame update
     [SerializeField]
     private Image itemImage;
@@ -48,10 +49,16 @@ public class UIInventoryItem : MonoBehaviour
         borderImage.enabled = true;
     }
 
-    private void OnPointerClick()
+    private void OnMouseOver()
     {
-
+        Select();
     }
-    */
+
+    private void OnMouseExit()
+    {
+        Deselect();
+    }
+
+
 
 }
